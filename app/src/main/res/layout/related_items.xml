@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/frameColorNormal"
+    android:padding="@dimen/_8adp">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150adp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hritik_roshan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/example_poster"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/david_backham"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="@+id/poster"
+        app:layout_constraintTop_toBottomOf="@+id/poster" />
+
+    <TextView
+        android:textColor="@color/mainText"
+        android:id="@+id/tv_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:maxLines="1"
+        android:text="@string/tittle"
+        app:layout_constraintBottom_toBottomOf="@id/example_poster"
+        app:layout_constraintStart_toEndOf="@id/example_poster"
+        app:layout_constraintTop_toTopOf="@id/example_poster" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

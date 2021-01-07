@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IndianMTV</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittle">MTV Tittle</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="saved">Saved</string>
+    <string name="about">About</string>
+    <string name="cat_title">Catgory Title</string>
+    <string name="view_all">View All</string>
+    <string name="video_list_title">Title</string>
+    <string name="related_songs">Related Songs</string>
+    <string name="video_title">Title</string>
+    <string name="loading">Loading........</string>
+</resources>
